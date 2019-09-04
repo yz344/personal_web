@@ -9,7 +9,7 @@
 **********************************************************************************/
 
 /**************************************************************
-	
+
 	STYLESHEET INDEXING
 	|
 	|
@@ -89,7 +89,7 @@
 		});
 
 		$('.portfolio-filters button').on('click', function () {
-			
+
 			var filterValue = $(this).attr('data-filter');
 			$gallery.isotope({
 				filter: filterValue
@@ -131,7 +131,7 @@
 		meanMenuContainer: '.mobile-menu',
 		onePage: true
 	});
-	
+
 
 
 
